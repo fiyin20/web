@@ -13,9 +13,9 @@
   <body>
     <section class="header">
       <nav>
-        <a href="web.html"> <img src="moon.jpg" alt="the school logo" /></a>
+        <a href="web.html"><img src="pic1.jpg" alt="the school logo" /></a>
         <div class="nav-links" id="navLinks">
-          <i class="fa fa-window-close" v></i>
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -28,12 +28,13 @@
       </nav>
 
       <div class="text-box">
-        <h1>World biggest university</h1>
+        <h1>World biggest University</h1>
         <p>
           Making website is now one of the easiest thing to do in the world. you
-          just need to lear HTML, CSS, Javascript and you are good to go.
+          just need to lear HTML,<br />
+          CSS, Javascript and you are good to go.
         </p>
-        <a href="" class="hero-btn">Visit Us to know</a>
+        <a href="" class="hero-btn">Visit Us to know More</a>
       </div>
     </section>
     <!------COURSES-->
@@ -46,7 +47,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             voluptatibus, inventore, sint consectetur molestiae enim nobis dicta
             nisi praesentium autem natus laborum, sequi facere quidem
-            reprehenderit non quo consequatur. Dicta!
+            reprehenderit non quo consequatur.
           </p>
         </div>
 
@@ -112,7 +113,113 @@
         sit placeat commodi rem ipsum quisquam illum porro. Nesciunt
         exercitationem dolorem et.
       </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="adult.jpg" alt="THE FIRST LIBRARY PICTURE" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
+            possimus corrupti aspernatur, recusandae debitis corporis ipsa
+            nesciunt perspiciatis porro, odio nisi? Pariatur vero praesentium ea
+            perspiciatis aspernatur ut molestias voluptatibus?
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="Library.jpeg" alt="THE FIRST LIBRARY PICTURE" />
+          <h3>School Mazaine hall</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
+            possimus corrupti aspernatur, recusandae debitis corporis ipsa
+            nesciunt perspiciatis porro, odio nisi? Pariatur vero praesentium ea
+            perspiciatis aspernatur ut molestias voluptatibus?
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="library.jpg" alt="THE FIRST LIBRARY PICTURE" />
+          <h3>Computer room</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
+            possimus corrupti aspernatur, recusandae debitis corporis ipsa
+            nesciunt perspiciatis porro, odio nisi? Pariatur vero praesentium ea
+            perspiciatis aspernatur ut molestias voluptatibus?
+          </p>
+        </div>
+      </div>
     </section>
+
+    <!------TESTIMONALS----->
+    <section class="testimonials">
+      <h1>What Our Student says</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe
+        quisquam quia impedit fugiat alias animi nisi velit, sint libero fugit
+        tempora accusantium esse, corporis hic. Labore neque impedit sed!
+      </p>
+      <div class="row">
+        <div class="testimonals-col">
+          <img src="ROYALTY!!!.jpg" alt="users PICTURE" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            assumenda voluptate a sunt qui, earum iusto cumque ex sint
+            accusantium delectus eius nisi reprehenderit ducimus alias
+            architecto accusamus amet. Beatae!
+          </p>
+          <h3>Taiwo Peace Fiyinfoluwa</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div class="testimonals-col">
+          <img src="MY GOVERNOR !!!.jpg" alt="users 2 PICTURE" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              assumenda voluptate a sunt qui, earum iusto cumque ex sint
+              accusantium delectus eius nisi reprehenderit ducimus alias
+              architecto accusamus amet. Beatae!
+            </p>
+            <h3>Mathew Sediq</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------CALL TO ACTION------>
+    <section class="cta">
+      <h1>Enroll for our various online courses anywhere from the World.</h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!---------FOOTER------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        maiores quod quis laboriosam distinctio animi fuga voluptate magnam
+
+        <br />
+        accusamus, esse in voluptatum enim, nisi molestiae sapiente, nostrum
+        tenetur reiciendis eveniet.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-telegram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+    </section>
+    `
 
     <!-----------JAVASCRIPT for Toggle Menu-->
     <script>
@@ -120,6 +227,7 @@
       function showMenu() {
         navLinks.style.right = "0";
       }
+
       function hideMenu() {
         navLinks.style.right = "-200px";
       }
